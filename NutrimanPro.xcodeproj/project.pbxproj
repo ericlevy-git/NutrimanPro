@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		43B783CB564DD0055DA568EE /* Pods_NutrimanPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA38EF2F31DEA8F46EAA05B1 /* Pods_NutrimanPro.framework */; };
 		7E6FA1FE219F5C220030B1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */; };
-		7E6FA200219F5C220030B1BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */; };
-		7E6FA202219F5C220030B1BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA201219F5C220030B1BE /* SecondViewController.swift */; };
 		7E6FA205219F5C220030B1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6FA203219F5C220030B1BE /* Main.storyboard */; };
 		7E6FA207219F5C240030B1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6FA206219F5C240030B1BE /* Assets.xcassets */; };
 		7E6FA20A219F5C240030B1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6FA208219F5C240030B1BE /* LaunchScreen.storyboard */; };
 		7E6FA215219F5C240030B1BE /* NutrimanProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA214219F5C240030B1BE /* NutrimanProTests.swift */; };
 		7E6FA220219F5C240030B1BE /* NutrimanProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA21F219F5C240030B1BE /* NutrimanProUITests.swift */; };
 		7ED0D14921A0FC9300640BD9 /* NPUsdaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0D14821A0FC9300640BD9 /* NPUsdaService.swift */; };
+		7ED0D14B21A1128600640BD9 /* NPMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0D14A21A1128600640BD9 /* NPMainTabBarViewController.swift */; };
+		7ED0D14D21A1132400640BD9 /* NPSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0D14C21A1132400640BD9 /* NPSearchViewController.swift */; };
+		7ED0D14F21A1133400640BD9 /* NPDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0D14E21A1133400640BD9 /* NPDiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 		2EFEC83C1166093B059AD6D9 /* Pods-NutrimanPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrimanPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro.debug.xcconfig"; sourceTree = "<group>"; };
 		7E6FA1FA219F5C220030B1BE /* NutrimanPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutrimanPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7E6FA201219F5C220030B1BE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7E6FA204219F5C220030B1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E6FA206219F5C240030B1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6FA209219F5C240030B1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,9 @@
 		7E6FA21F219F5C240030B1BE /* NutrimanProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrimanProUITests.swift; sourceTree = "<group>"; };
 		7E6FA221219F5C240030B1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ED0D14821A0FC9300640BD9 /* NPUsdaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPUsdaService.swift; sourceTree = "<group>"; };
+		7ED0D14A21A1128600640BD9 /* NPMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPMainTabBarViewController.swift; sourceTree = "<group>"; };
+		7ED0D14C21A1132400640BD9 /* NPSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPSearchViewController.swift; sourceTree = "<group>"; };
+		7ED0D14E21A1133400640BD9 /* NPDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPDiaryViewController.swift; sourceTree = "<group>"; };
 		9AD63637166EED64440D050D /* Pods-NutrimanPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrimanPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro.release.xcconfig"; sourceTree = "<group>"; };
 		DA38EF2F31DEA8F46EAA05B1 /* Pods_NutrimanPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrimanPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,8 +123,6 @@
 				7ED0D14421A0FC2000640BD9 /* Models */,
 				7ED0D14721A0FC2000640BD9 /* Views */,
 				7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */,
-				7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */,
-				7E6FA201219F5C220030B1BE /* SecondViewController.swift */,
 				7E6FA203219F5C220030B1BE /* Main.storyboard */,
 				7E6FA206219F5C240030B1BE /* Assets.xcassets */,
 				7E6FA208219F5C240030B1BE /* LaunchScreen.storyboard */,
@@ -167,6 +167,9 @@
 		7ED0D14621A0FC2000640BD9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7ED0D14A21A1128600640BD9 /* NPMainTabBarViewController.swift */,
+				7ED0D14C21A1132400640BD9 /* NPSearchViewController.swift */,
+				7ED0D14E21A1133400640BD9 /* NPDiaryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -367,10 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E6FA202219F5C220030B1BE /* SecondViewController.swift in Sources */,
+				7ED0D14B21A1128600640BD9 /* NPMainTabBarViewController.swift in Sources */,
 				7E6FA1FE219F5C220030B1BE /* AppDelegate.swift in Sources */,
+				7ED0D14D21A1132400640BD9 /* NPSearchViewController.swift in Sources */,
 				7ED0D14921A0FC9300640BD9 /* NPUsdaService.swift in Sources */,
-				7E6FA200219F5C220030B1BE /* FirstViewController.swift in Sources */,
+				7ED0D14F21A1133400640BD9 /* NPDiaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
