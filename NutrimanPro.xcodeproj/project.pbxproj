@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B783CB564DD0055DA568EE /* Pods_NutrimanPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA38EF2F31DEA8F46EAA05B1 /* Pods_NutrimanPro.framework */; };
 		7E6FA1FE219F5C220030B1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */; };
 		7E6FA200219F5C220030B1BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */; };
 		7E6FA202219F5C220030B1BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA201219F5C220030B1BE /* SecondViewController.swift */; };
@@ -15,6 +16,7 @@
 		7E6FA20A219F5C240030B1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6FA208219F5C240030B1BE /* LaunchScreen.storyboard */; };
 		7E6FA215219F5C240030B1BE /* NutrimanProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA214219F5C240030B1BE /* NutrimanProTests.swift */; };
 		7E6FA220219F5C240030B1BE /* NutrimanProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA21F219F5C240030B1BE /* NutrimanProUITests.swift */; };
+		7ED0D14921A0FC9300640BD9 /* NPUsdaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0D14821A0FC9300640BD9 /* NPUsdaService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EFEC83C1166093B059AD6D9 /* Pods-NutrimanPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrimanPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro.debug.xcconfig"; sourceTree = "<group>"; };
 		7E6FA1FA219F5C220030B1BE /* NutrimanPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutrimanPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		7E6FA21B219F5C240030B1BE /* NutrimanProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrimanProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6FA21F219F5C240030B1BE /* NutrimanProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrimanProUITests.swift; sourceTree = "<group>"; };
 		7E6FA221219F5C240030B1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED0D14821A0FC9300640BD9 /* NPUsdaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPUsdaService.swift; sourceTree = "<group>"; };
+		9AD63637166EED64440D050D /* Pods-NutrimanPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrimanPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro.release.xcconfig"; sourceTree = "<group>"; };
+		DA38EF2F31DEA8F46EAA05B1 /* Pods_NutrimanPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrimanPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B783CB564DD0055DA568EE /* Pods_NutrimanPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB0C69D86C9BD6F7C19E0F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA38EF2F31DEA8F46EAA05B1 /* Pods_NutrimanPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E6FA1F1219F5C220030B1BE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				7E6FA213219F5C240030B1BE /* NutrimanProTests */,
 				7E6FA21E219F5C240030B1BE /* NutrimanProUITests */,
 				7E6FA1FB219F5C220030B1BE /* Products */,
+				91A8E41663B042085D30549A /* Pods */,
+				3DB0C69D86C9BD6F7C19E0F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,10 @@
 		7E6FA1FC219F5C220030B1BE /* NutrimanPro */ = {
 			isa = PBXGroup;
 			children = (
+				7ED0D14521A0FC2000640BD9 /* API */,
+				7ED0D14621A0FC2000640BD9 /* Controllers */,
+				7ED0D14421A0FC2000640BD9 /* Models */,
+				7ED0D14721A0FC2000640BD9 /* Views */,
 				7E6FA1FD219F5C220030B1BE /* AppDelegate.swift */,
 				7E6FA1FF219F5C220030B1BE /* FirstViewController.swift */,
 				7E6FA201219F5C220030B1BE /* SecondViewController.swift */,
@@ -128,6 +149,44 @@
 			path = NutrimanProUITests;
 			sourceTree = "<group>";
 		};
+		7ED0D14421A0FC2000640BD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7ED0D14521A0FC2000640BD9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7ED0D14821A0FC9300640BD9 /* NPUsdaService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7ED0D14621A0FC2000640BD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7ED0D14721A0FC2000640BD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91A8E41663B042085D30549A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEC83C1166093B059AD6D9 /* Pods-NutrimanPro.debug.xcconfig */,
+				9AD63637166EED64440D050D /* Pods-NutrimanPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6FA224219F5C240030B1BE /* Build configuration list for PBXNativeTarget "NutrimanPro" */;
 			buildPhases = (
+				C3ADD792B7952294B56F3DF2 /* [CP] Check Pods Manifest.lock */,
 				7E6FA1F6219F5C220030B1BE /* Sources */,
 				7E6FA1F7219F5C220030B1BE /* Frameworks */,
 				7E6FA1F8219F5C220030B1BE /* Resources */,
+				8242048D6EDE669076F16EE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +315,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8242048D6EDE669076F16EE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NutrimanPro/Pods-NutrimanPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ADD792B7952294B56F3DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutrimanPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E6FA1F6219F5C220030B1BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +369,7 @@
 			files = (
 				7E6FA202219F5C220030B1BE /* SecondViewController.swift in Sources */,
 				7E6FA1FE219F5C220030B1BE /* AppDelegate.swift in Sources */,
+				7ED0D14921A0FC9300640BD9 /* NPUsdaService.swift in Sources */,
 				7E6FA200219F5C220030B1BE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +543,7 @@
 		};
 		7E6FA225219F5C240030B1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFEC83C1166093B059AD6D9 /* Pods-NutrimanPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +562,7 @@
 		};
 		7E6FA226219F5C240030B1BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD63637166EED64440D050D /* Pods-NutrimanPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

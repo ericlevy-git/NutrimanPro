@@ -12,7 +12,16 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        NPUsdaService.search("chocolate", offset: 0, maxResults: 20, sort: .relevance, dataSource: .standardReference) { (listItems, error) in
+            guard let listItems = listItems else {
+                return
+            }
+            
+            for item in listItems.item {
+                print("\(item.name)")
+            }
+        }
+        
     }
 
 
